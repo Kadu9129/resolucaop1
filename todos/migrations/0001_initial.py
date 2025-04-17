@@ -15,9 +15,9 @@ class Migration(migrations.Migration):
             name='Todo',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('title', models.CharField(max_length=100)),
+                ('Tarefa', models.CharField(max_length=100)),
                 ('created_at', models.DateField(auto_now_add=True)),
-                ('deadline', models.DateField()),
+                ('TempoMax', models.DateField()),
                 ('finished_at', models.DateField(blank=True, null=True)),
             ],
         ),
